@@ -16,7 +16,7 @@
 
 ---
 
-## 🚀 Description (for GitHub repo)
+## 🚀 Description 
 
 A fully self-contained Android ad-blocking app built entirely in Python.  
 It intercepts DNS traffic using Android's VPN API, filters malicious and ad domains, and forwards safe queries via encrypted DNS-over-HTTPS.
