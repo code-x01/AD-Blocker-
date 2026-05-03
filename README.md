@@ -54,24 +54,20 @@ It intercepts DNS traffic using Android's VPN API, filters malicious and ad doma
 
 ---
 
-# ===============================
-# 🚀 Build DNS AdBlocker APK
-# ===============================
+## 🚀 Build DNS AdBlocker APK
 
-# 1️⃣ Clone repository
+```bash
 git clone https://github.com/yourusername/dns-adblocker-android.git
 cd dns-adblocker-android
+```
 
-# 2️⃣ Configure Android SDK path
+```bash
 echo "sdk.dir=/home/youruser/android-sdk" > local.properties
+```
 
-# 3️⃣ Build debug APK
+```bash
 ./gradlew assembleDebug
-
-# ===============================
-# 📦 Output APK
-# ===============================
-# app/build/outputs/apk/debug/app-debug.apk
+```
 
 📦 Output:
 
